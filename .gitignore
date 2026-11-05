@@ -1,0 +1,25 @@
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials
+secrets/
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+terraform.tfvars
+*.tfplan
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
